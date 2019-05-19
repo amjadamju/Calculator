@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Calculator
+        </title>
+        <link href="index.css" rel="stylesheet">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <h1 class="header">Calculator</h1>
+        <div class="result-box">
+            <input type="text" id="result" class="answer" value="Answer">
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <div class="l-first">
+                    <select name="oprations" class="dropdown" id="scripts">
+                        <option value="Arith">
+                            Arithemtic Operations
+                        </option>
+                        <option value="trig">
+                            Trignometric operations
+                        </option>
+                        <option value="exp">
+                            Exponential functions
+                        </option>
+                    </select>
+                    <br><br>
+                    <button class="submit-btn" type="submit" value="submit" onclick="operations()">Submit</button>
+                </div>
+                <div class="l-second" id="operator-list">
+                    <!--Operator-->
+                </div>
+            </div>
+            <div class="right">
+                <div class="r-first">
+                    <input type="text" value="0" name="oper-1" class="oper-box"><br>
+                    <input type="text" name="oper-2" class="oper-box"><br>
+                    <div  class="submit-btn">
+                        <button type="reset">Clear</button>
+                        <button type="submit">Show Answer</button>
+                    </div>
+                </div>
+                <div class="r-second">
+                    <button type="button" class="btn" onclick="num();">1</button>
+                    <button type="button" class="btn" onclick="num();">2</button>
+                    <button type="button" class="btn" onclick="num();">3</button><br>
+                    <button type="button" class="btn" onclick="num();">4</button>
+                    <button type="button" class="btn" onclick="num();">5</button>
+                    <button type="button" class="btn" onclick="num();">6</button> <br>     
+                    <button type="button" class="btn" onclick="num();">7</button>      
+                    <button type="button" class="btn" onclick="num();">8</button>  
+                    <button type="button" class="btn" onclick="num();">9</button> <br>     
+                    <button type="button" class="btn" onclick="num();">0</button>      
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

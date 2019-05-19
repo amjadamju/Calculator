@@ -1,0 +1,59 @@
+.header{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 60px;
+}
+.left{
+    width: 40%;
+    height: 100%;
+    left: 0%;
+    position: fixed;
+    overflow: hidden;
+}
+.right{
+    width: 60%;
+    height: 100%;
+    right: 0%;
+    position: fixed;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+.answer{
+    margin-left: 40%;
+    margin-top: 30px;
+}
+.r-second{
+    margin-left: 35%;
+    margin-top: 15%;
+}
+.btn{
+    height:50px;
+    width: 50px;
+    margin: 15px 15px 15px 15px;
+}
+.oper-box{
+    margin:15px 15px 15px 15px ;
+    margin-left: 35%;
+}
+.submit-btn{
+    margin-left: 40%;
+}
+.result-box{
+    background-color: dodgerblue;
+    height: 100px;
+}
+.l-first{
+    height: 40%;
+    background-color: crimson;
+}
+.l-second{
+    background-color: blanchedalmond;
+    height: 60%;
+}
+.dropdown{
+    margin-top: 15%;
+    margin-left: 35%;
+}
+.btn-grp{
+    margin-left: 35%;
+}
